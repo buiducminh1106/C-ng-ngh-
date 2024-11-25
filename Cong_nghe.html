@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dịch Vụ Tư Vấn Công Nghệ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #34495E;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #2C3E50;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #1abc9c;
+            border-radius: 5px;
+        }
+
+        /* Main Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        /* Section */
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 32px;
+            color: #2C3E50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        /* Service Cards */
+        .services {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 30%;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .service h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #34495E;
+        }
+
+        .service p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* Contact Section */
+        .contact-info {
+            background-color: #ecf0f1;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .contact-info a {
+            color: #1abc9c;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #34495E;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Cung Cấp Dịch Vụ Tư Vấn Công Nghệ</h1>
+        <p>Giải pháp công nghệ dành cho doanh nghiệp và cá nhân</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#intro">Giới Thiệu</a>
+        <a href="#services">Dịch Vụ</a>
+        <a href="#contact">Liên Hệ</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Introduction Section -->
+        <section id="intro">
+            <h2>Giới Thiệu</h2>
+            <p>Chúng tôi cung cấp các dịch vụ tư vấn công nghệ chuyên nghiệp giúp doanh nghiệp và cá nhân áp dụng các giải pháp công nghệ hiện đại để tối ưu hóa quy trình làm việc và phát triển kinh doanh.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Dịch Vụ Tư Vấn Công Nghệ</h2>
+            <p>Chúng tôi cung cấp các dịch vụ tư vấn công nghệ đa dạng, từ phát triển phần mềm, bảo mật mạng đến các giải pháp chuyển đổi số và AI.</p>
+            <div class="services">
+                <div class="service">
+                    <h3>Tư Vấn Phát Triển Phần Mềm</h3>
+                    <p>Phát triển phần mềm tùy chỉnh đáp ứng nhu cầu kinh doanh và tối ưu quy trình làm việc.</p>
+                </div>
+                <div class="service">
+                    <h3>Tư Vấn An Ninh Mạng</h3>
+                    <p>Giải pháp bảo mật toàn diện để bảo vệ hệ thống và dữ liệu của doanh nghiệp khỏi các mối đe dọa.</p>
+                </div>
+                <div class="service">
+                    <h3>Tư Vấn Chuyển Đổi Số</h3>
+                    <p>Giúp doanh nghiệp chuyển đổi sang các giải pháp công nghệ số để nâng cao hiệu quả và phát triển bền vững.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Liên Hệ</h2>
+            <div class="contact-info">
+                <p>Để nhận tư vấn chi tiết, vui lòng liên hệ với chúng tôi qua thông tin dưới đây:</p>
+                <p>Email: <a href="mailto:info@congnghe.com">info@congnghe.com</a></p>
+                <p>Điện thoại: <a href="tel:+84123456789">0123 456 789</a></p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cung Cấp Dịch Vụ Tư Vấn Công Nghệ. Tất cả quyền được bảo vệ.</p>
+    </footer>
+    <a href="web.html" ></a>
+</body>
+
+</html>
